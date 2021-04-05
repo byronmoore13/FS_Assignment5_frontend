@@ -9,8 +9,13 @@ const routes = [
       },
       { 
         path: '/settings', 
-        component: () => import('pages/pageSettings.vue') 
-      }
+        component: () => import('pages/PageSettings.vue') 
+      },
+      { 
+        path: '/auth', 
+        component: () => import('../pages/PathAuth.vue') 
+      } 
+
     ]
   }
 ]

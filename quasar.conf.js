@@ -8,17 +8,10 @@
 
 module.exports = function (/* ctx */) {
   return {
-    // https://v1.quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
-
-    // https://v1.quasar.dev/quasar-cli/prefetch-feature
-    // preFetch: true,
-
-    // app boot file (/src/boot)
-    // --> boot files are part of "main.js"
-    // https://v1.quasar.dev/quasar-cli/boot-files
     boot: [
-      
+      'firebase',
+      'router-auth'
     ],
 
     // https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -95,7 +88,11 @@ module.exports = function (/* ctx */) {
       // Quasar plugins
       plugins: [
         'Notify',
-        'Dialog'
+        'Dialog',
+        'QBanner',
+        'QTabPanels',
+        'QTabPanel',
+        'QSeparator'
       ]
     },
 
