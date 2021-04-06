@@ -9,7 +9,6 @@
 	    	<modal-task-name 
 	    		:name.sync="taskToSubmit.name"
 	    		ref="modalTaskName" />
-
 				<modal-due-date 
 					:dueDate.sync="taskToSubmit.dueDate"
 					@clear="clearDueDate" />
