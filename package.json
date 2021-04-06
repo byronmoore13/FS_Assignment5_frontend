@@ -2,17 +2,15 @@
   "name": "maverick-todo",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar App",
-  "author": "byronmoore13 <byronmoore@unomaha.edu>",
+  "productName": "maverick-todo",
+  "author": "groyce <groyce@unomaha.edu>",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/cli": "^1.1.2",
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
-    "firebase": "^8.3.2",
     "quasar": "^1.0.0"
   },
   "devDependencies": {

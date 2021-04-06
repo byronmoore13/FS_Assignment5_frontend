@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {uid} from 'quasar'
+import { uid } from 'quasar'
 
 const state = {
 	tasks: {
@@ -10,7 +10,7 @@ const state = {
 			dueTime: '10:30'
 		},
 		'ID2': {
-			name: 'Grade 4900 Assign 3P1',
+			name: 'Grade 4900 Assign3P1',
 			completed: false,
 			dueDate: '2020/10/13',
 			dueTime: '14:00'
